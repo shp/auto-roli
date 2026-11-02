@@ -1,0 +1,7 @@
+[
+    {
+        "offer_item_ids": [123], 
+        "request_item_ids": [456], 
+        "request_tags": ["demand", "downgrade", "any"]
+    }
+]
