@@ -21,7 +21,7 @@ node index.js
 
 ```json
 {
-    "ROLIVERIFICATION": "_RoliVerification header",
+    "ROLIVERIFICATION": "_RoliVerification cookie",
     "USER_ID": 1234567
 }
 ```
@@ -29,7 +29,7 @@ node index.js
 #### ROLIVERIFICATION
 
 - type: string
-- desc: go to [rolimons](https://rolimons.com) and get the _RoliVerification header and put there
+- desc: go to [rolimons](https://rolimons.com) and get the _RoliVerification cookie and put there
 
 #### USER_ID
 
