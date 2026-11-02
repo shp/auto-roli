@@ -18,7 +18,7 @@ async function sleep(ms) {
 
     const userId = config.USER_ID;
     const roliVerification = config.ROLIVERIFICATION;
-    
+
     if (!userId) throw new Error(`Missing userid number, expected config: ${expectedConfig}`);
     if (!roliVerification) throw new Error(`Missing ROLIVERIFICATION cookie, expected config: ${expectedConfig}`);
 
@@ -41,7 +41,6 @@ async function sleep(ms) {
     while (true) {
          for (let i = 0; i<ads.length; i++) {
             const ad = ads[i];
-            console.log(ad);
             try {
                 const res = await fetch(ROLIMONS_URL, {
                     method: "POST",
